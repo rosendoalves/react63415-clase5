@@ -8,6 +8,7 @@ import UseRefExample2 from './components/UseRefExample2'
 import UseEffectExample from './components/UseEffectExample'
 import UseEffectExample2 from './components/UseEffectExample2'
 import ItemCount from './components/ItemCount'
+import UseEffectExample3 from './components/UseEffectExample3'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -43,6 +44,7 @@ function App() {
       <UseEffectExample />
       <UseEffectExample2 />
       <ItemCount stock={10} initial={1}/>
+      <UseEffectExample3 />
     </>
   )
 }
